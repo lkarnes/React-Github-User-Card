@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.user-card {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  border-radius: 10px;
+  background:  lightgray;
+  width: 60%;
+  padding: 0 0 10px 0;
+  margin: 10px auto;
+}
+.card-header {
+  width: 100%;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 20px;
+  background:dodgerblue;
+  padding: 10px 20px;
+  text-align: start;
+  border-bottom: 2px solid black;
+  border-radius: 10px 10px 0 0;
+}
+
+.user-img {
+  width: 100%;
+  border-bottom: 2px solid gray;
+  border-radius:10px 10px 0 0;
+}
+
+.user-info {
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 60%;
+  margin: 0 auto;
+  background: dodgerblue;
+}
+
+.following-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: dodgerblue;
+  justify-content: space-around;
+}
+
+.f-header {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.user {
+  width: 110px;
+  height: 110px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: rgb(53, 53, 53);
+  background: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 5px 10px; 
+}
+
+.following-img {
+  width: 50px;
+  margin-top: 5px;
+}
+
+.user > p {
+  margin: 0;
+}
